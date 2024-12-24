@@ -1,7 +1,7 @@
 
 body{
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     box-sizing: border-box;
     text-decoration: none;
     background:#010123 ;
@@ -14,7 +14,6 @@ body{
 html{
     scroll-behavior: smooth; 
     overflow: none;
-    width: 62.5%;
     height: 100%;
 }
 .header{
@@ -500,9 +499,7 @@ html{
 /* Ensure that the nav is hidden initially */
 .header .nav {
     display: none; /* Hidden by default */
-    position: absolute;
     top: 0;
-    left: 0;
     /* color: white; */
     font-size: 2rem;
     width: 100%;
