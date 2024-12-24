@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 2rem;
+    width: 100vw;
     box-sizing: border-box;
     text-decoration: none;
     background:#010123 ;
@@ -12,6 +13,7 @@ body{
     font-family: "Nunito Sans", sans-serif;
 }
 html{
+    width: 100vw;
     scroll-behavior: smooth; 
     overflow: none;
     height: 100%;
