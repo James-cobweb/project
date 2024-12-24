@@ -21,10 +21,12 @@ html{
     height: 100%;
 }
 .header{
+    overflow-x: hidden;
     width: 100vw;
 }
 
 .header .menu{
+    /* overflow-x: hidden; */
     display: none;
 }
 .header .nav{
