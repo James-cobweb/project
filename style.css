@@ -12,6 +12,7 @@ body{
     outline: none;
     scroll-behavior: smooth;
     font-family: "Nunito Sans", sans-serif;
+    overflow-x: hidden;
 }
 html{
     width: 100vw;
