@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body{
     margin: 0;
     padding: 0rem;
@@ -52,6 +52,7 @@ html{
     text-decoration: none;
     color: black;
     font-size: 2rem;
+    font-family: ubuntu;
 }
 .links a:hover{
     color: #010123;
@@ -500,13 +501,12 @@ html{
        font-size: 45%;
     }
     body{
-        padding-left: 3rem;
+        padding-left: 2rem;
     }
 /* Ensure that the nav is hidden initially */
 .header .nav {
     display: none; /* Hidden by default */
     top: 0;
-    right: 1px;
     /* color: white; */
     font-size: 2rem;
     width: 100%;
@@ -529,7 +529,7 @@ html{
 }
 .links a{
     /* color: white; */
-    font-size: 10px;
+    /* font-size: 3rem; */
 }
 
 .menu .open, .menu .close {
@@ -571,7 +571,7 @@ html{
     position: relative;
     right: 2rem;
     top: 8rem;
-    padding-left: 17rem;
+    padding-left: 19rem;
 }
 .texts h3{
     position: absolute;
